@@ -42,7 +42,7 @@ Training was performed exclusively on regular-season data, with playoff games re
 | Random Forest       | 0.95              | 0.80             |
 | Logistic Regression | 0.87              | 0.70             |
 
-Both models achieved **70-**80%** accuracy** on playoff predictions, clearly outperforming the naive baseline prediction approach (~70% accuracy).
+Both models achieved **70-80% accuracy** on playoff predictions, clearly outperforming the naive baseline prediction approach (~70% accuracy).
 
 ### 4.2 Playoff Predictions
 
