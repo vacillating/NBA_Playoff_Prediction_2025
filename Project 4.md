@@ -1,6 +1,8 @@
 
 # NBA Game Prediction Analysis: Predicting Pacers Playoff Outcomes (2024–2025 Season)
 
+**Github link:**https://github.com/vacillating/NBA_Playoff_Prediction_2025
+
 ## 1. Introduction
 
 Inspired by attending Game 6 of the NBA Eastern Conference Finals featuring the Indiana Pacers, I chose to focus my AAE 718 Project 4 on predicting NBA playoff game outcomes. The Pacers stood out for their dynamic gameplay characterized by remarkable comebacks, clutch moments, and strategic coaching decisions. This report details the development and evaluation of machine learning models intended to predict the outcomes of the Pacers' playoff games during the 2024–2025 NBA season.
