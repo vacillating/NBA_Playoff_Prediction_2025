@@ -66,6 +66,15 @@ def evaluate_models(rf_model, lr_model, X_test, y_test):
         report = classification_report(y_test, preds)
         print(f"\nModel: {name}\nAccuracy: {accuracy:.2f}\n{report}")
 
+def predict_latest_game(X_test, rf_model, lr_model):
+    latest_game = X_test.tail(1)
+    rf_pred = rf_model.predict(latest_game)[0]
+    lr_pred = lr_model.predict(latest_game)[0]
+
+    print("\n🎯 Game 5 Prediction (Pacers vs Thunder):")
+    print(f"Random Forest Prediction: {'Win' if rf_pred == 1 else 'Lose'}")
+    print(f"Logistic Regression Prediction: {'Win' if lr_pred == 1 else 'Lose'}")
+
 # Main execution
 def main():
     raw_data = fetch_pacers_data()
@@ -74,6 +83,8 @@ def main():
     rf_model = train_random_forest(X_train, y_train)
     lr_model = run_logistic_regression(X_train, y_train, X_test, y_test)
     evaluate_models(rf_model, lr_model, X_test, y_test)
+    predict_latest_game(X_test, rf_model, lr_model)
 
 if __name__ == '__main__':
     main()
+
