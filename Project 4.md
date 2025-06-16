@@ -1,7 +1,4 @@
-
 # NBA Game Prediction Analysis: Predicting Pacers Playoff Outcomes (2024–2025 Season)
-
-**Github link:**https://github.com/vacillating/NBA_Playoff_Prediction_2025
 
 ## 1. Introduction
 
@@ -43,9 +40,9 @@ Training was performed exclusively on regular-season data, with playoff games re
 | Model               | Training Accuracy | Testing Accuracy |
 | ------------------- | ----------------- | ---------------- |
 | Random Forest       | 0.95              | 0.80             |
-| Logistic Regression | 0.87              | 0.80             |
+| Logistic Regression | 0.87              | 0.70             |
 
-Both models achieved **80% accuracy** on playoff predictions, clearly outperforming the naive baseline prediction approach (~70% accuracy).
+Both models achieved **70-**80%** accuracy** on playoff predictions, clearly outperforming the naive baseline prediction approach (~70% accuracy).
 
 ### 4.2 Playoff Predictions
 
